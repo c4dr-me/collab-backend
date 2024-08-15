@@ -11,7 +11,7 @@ dotenv.config();
 const app = express();
 app.use(bodyParser.json());
 const corsOptions = {
-    origin: 'https://dainty-gecko-212f08.netlify.app/', 
+    origin: 'https://dainty-gecko-212f08.netlify.app', 
     optionsSuccessStatus: 200
   };
 app.use(express.json());
